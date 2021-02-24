@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<link href="Formulário.css".css" type="text/css" rel="stylesheet">
+		<title>Contactos</title>
+	</head>
+
+	<body>
+		<h1>É fã do CR7? Fale connosco!</h1>
+		
+		<form>
+			<fieldset>
+				<legend>Identificação:</legend>
+					<p>Nome: <input type="text" name="nnome" size="80" maxlength="55" placeholder="Nome completo"></p>
+					<p>Email: <input type="text" name="nmail" size="60" maxlength="60" placeholder="Email"></p>
+					<p><fieldset>
+						<legend>Género:</legend></p>
+							<p><input type="radio" name="ngenero" id="iMasc"><label for="iMasc">Masculino</label></p>
+							<p><input type="radio" name="ngenero" id="iFem">Feminino</label></p>
+						
+					</fieldset>
+					
+					<p>Data de Nascimento: <input type="date" name="tnasc"></p>
+
+					<fieldset>
+							<legend>Nacionalidade</legend>
+   						 <p><input type="text" name="pais" id="pais" placeholder="País de nascimento"></p>
+   						 <input type="button" value="Verificar" onclick="nacional()">
+    					<div id="nasc"></div>
+					</fieldset>
+			</fieldset>
+		</form>
+		
+		<script>
+			function nacional(){
+				var p = window.document.getElementById('pais').value
+				var n = window.document.getElementById('nasc')
+	
+				switch(p){
+	
+						case 'Portugal':
+							n.innerText = `Meu amigo Português, agradecemos o contacto`
+							break
+						case 'Espanha':
+							n.innerText = `Meu amigo Espanhol, agradecemos o contacto`
+							break
+						case 'França':
+							n.innerText = `Meu amigo Francês, agradecemos o contacto`
+							break
+						case 'Brasil':
+							n.innerText = `Meu amigo Brasileiro, agradecemos o contacto`
+							break
+						default:
+							n.innerText = `Meu amigo Estrangeiro, agradecemos o contacto`
+							break
+	
+	
+				}
+	
+	
+			}
+		</script>
+	<center>
+		<table id="tabela" border="5">
+			<th><a href="BIOGRAFIA.html">Voltar</a></th>
+		</table>
+
+	</center>
+	</body>
+</html>

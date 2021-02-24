@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<meta charset="UTF-8"> 
+		<title> Cristiano Ronaldo -</title>
+		<link href="Index.css" type="text/css" rel="stylesheet">
+
+	</head>
+
+	<body>
+		<hr></hr>
+		<hr></hr>
+		<hr></hr>
+		<hr></hr>
+			<h1 align=center>- CRISTIANO  RONALDO DOS SANTOS AVEIRO</h1>
+		<hr></hr>
+		<hr></hr>
+		<hr></hr>
+		<hr></hr>
+
+		<center>
+			<table id="tabela" border="5">
+				<th><a href="BIOGRAFIA.html">PROSSEGUIR</a></th>
+			</table>
+
+		</center>
+
+		<h2>Conforme os anos passam, CR7 vai ganhando cada vez mais prémios individuais. Insira nos espaços em branco abaixo os prémios que ele ganhou e veja o total!</h2>
+		<hr></hr>
+		<section id="set">
+		<input type="number" name="n1" id="n1" placeholder="The Best">
+		+
+		<input type="number" name="n2" id="n2" placeholder="ballon d'Or">
+		<input type="button" name="somar" id="somar" value="Verificar" onclick="soma()">
+		
+	
+		<div id="res">Aqui vai aparecer o Total</div>
+		</section>
+		<script>
+				function soma(){
+					var num1 = Number(window.document.getElementById('n1').value)
+					var num2 = Number(window.document.getElementById('n2').value)
+					var s = window.document.getElementById('res')
+	
+					var res = num1 + num2
+					 s.innerText = `Cristiano Ronaldo tem ${num1} prémios the best e ${num2}  ballon d'Or, então no total tem ${res} prémios.`
+	
+				}
+	
+		</script>
+			<hr></hr>
+			<hr></hr>
+
+		<center>
+			<video controls="controls">
+			<source src="Index.mp4" type="video/mp4">
+			</video>
+		</center>
+	
+	</body>
+
+</html>

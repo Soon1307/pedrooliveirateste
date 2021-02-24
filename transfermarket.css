@@ -1,0 +1,9 @@
+iframe{
+	height: 1000px;
+	width: 750px;
+}
+body{
+	background-image: url(transfermarkt.png)
+}
+#tabela{
+	background-color: white;

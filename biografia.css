@@ -1,0 +1,19 @@
+body{
+	background-image: url(biografia.jpg);
+}
+h1{
+	color: white;
+}
+h2{
+	color: white;
+}
+p{
+	background-color: white;
+	text-align: center;
+	font-family: broadway;
+	font-size: 70px;
+}
+#tabela{
+	background-color: white;
+	display: inline;
+}

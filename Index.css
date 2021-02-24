@@ -1,0 +1,23 @@
+body{
+	background-image: url(Index.jpg);
+}
+h1{
+	text-align:center;
+	font-size: 100px;
+	font-family: broadway;
+	color: #6600ff;
+}
+#set{
+	background-color: white;
+	text-align: center;
+}
+
+#tabela{
+	background-color: grey;
+}
+h2{
+	text-align: center;
+	font-family: broadway;
+	background-color: white;
+	color: #6600ff;
+}
